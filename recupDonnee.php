@@ -44,4 +44,5 @@ $dataImage = curl_exec($curlImage);
 
 //Date
 $date = new DateTime();
+$date->modify('+2 hour');
 $date = $date->format('d-m-Y H:i:s');
